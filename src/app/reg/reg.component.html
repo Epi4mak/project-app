@@ -1,0 +1,29 @@
+<body class="body">
+    <div class="reg__form">
+        <div class="header__logo">
+            <img src="../assets/img/NewLogo1.png">
+        </div>
+        <div class="reg__title">Регистрация</div>
+        <div class="reg__input">
+            <input id="login" name="login" [(ngModel)]="login" type="text" placeholder="Логин" required>
+        </div>
+        <div class="reg__input">
+            <input id="mail" name="mail" [(ngModel)]="mail" type="text" placeholder="Почта" required>
+        </div>
+        <div class="reg__input">
+            <input id="password" name="password" [(ngModel)]="password" type="password" placeholder="Пароль" required>
+        </div>
+        <div class="reg__input">
+            <input id="confirm_password" name="confirm_password" [(ngModel)]="password_confirm" type="password" placeholder="Повтор пароля" required>
+            <div *ngIf="error_text != 'no_error'" class="reg_error">
+                {{error_text}}
+            </div>
+        </div>
+        <div class="reg__submit">
+            <button class="btn btn--reg" (click)="regFunction()">Регистрация</button>
+        </div>
+        <div class="link__inner">
+            <a  class="reg__link" routerLink="/login">Уже зарегистрированы?</a>
+        </div>
+    </div>
+</body>

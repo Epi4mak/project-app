@@ -1,0 +1,23 @@
+<div class="body">
+    <div class="form">
+        <div class="header__logo">
+            <img src="../assets/img/NewLogo1.png">
+        </div>
+        <h1 class="form__title">Вход</h1>
+        <div class="input-form">
+            <input name="login" id="login" type="text" [(ngModel)]="login" placeholder="Логин">
+        </div>
+        <div class="input-form">
+            <input name="password" id="password" type="password" [(ngModel)]="password" placeholder="Пароль">
+        </div>
+        <div *ngIf="error_text != 'no_error'" class="log_error">
+            {{error_text}}
+        </div>
+        <div class="in">
+            <button id="check" class="btn btn--reg" (click)="check()">Вход</button>
+        </div>
+        <div class="link__inner">  
+            <a routerLink="#" class="log__link">Забыли пароль?</a>
+        </div> 
+    </div>
+</div>

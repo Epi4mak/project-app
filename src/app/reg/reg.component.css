@@ -1,0 +1,96 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    height: 100vh;
+    
+    background: linear-gradient(100deg, #3A3E64, #00ccff);
+}
+
+.header__logo {
+    margin: 10px 0px -10px 0px;
+}
+
+.reg__form {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 450px;
+
+    transform: translate(-50%, -50%);
+    background-color: rgb(58, 62, 100);
+    border-radius: 0px 0px 4px 4px;
+    border-top: 4px solid #00ccff;
+    text-align: center;
+}
+
+.reg__title {
+    color: #fff;
+
+    font-size: 35px;
+    font-weight: 400;
+    padding: 0px 10px 15px 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 250px;
+    height: 35px;
+    border-radius: 0px 0px 4px 4px;
+
+    margin: 0px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #000;
+    outline: none;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    border: 3px solid #00ccff;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 35px;
+
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    color: #3A3E64;
+    background-color: #00ccff;
+    border: none;
+
+    transition: .1s linear;
+}
+
+.btn:hover {
+    background-color: #0bb9e5;
+}
+
+.link__inner {
+    margin-bottom: 10px;
+}
+
+.reg__link {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.reg__link:hover {
+    text-decoration: underline;
+}
+
+.reg_error {
+    display: block;
+    height: 20px;
+    font-size: 16px;
+    margin-top: -20px;
+    margin: 0px 10px 15px 10px;
+    text-align: center;
+    color: #FFFB00;  
+}

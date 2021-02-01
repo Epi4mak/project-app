@@ -1,0 +1,29 @@
+<body class="body"> 
+    <div id="background">
+        <div *ngFor="let model of baskets">
+            <div class="model">
+                <div class="photo__inner">
+                    <div class="photo">
+                        <img [src]="model.link" height="200px"><br>
+                    </div>
+                </div>
+                <div class="product">
+                    <a routerLink="/basket" id="name" routerLinkActive="active">{{model.name}}</a>
+                    <div id="desc">
+                        {{model.desc}}
+                    </div>
+                    <br>
+                    <div id="price">
+                        <strong>{{model.price}} руб.</strong>
+                    </div>
+                    <br>
+                    <img src="" title="удалить из корзины"
+                        (click)="removeFromBaskets(model)">
+                    <img src="" title="добавить в избранные"
+                        (click)="addToStars(model)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>Товары не найдены</div>
+</body>  

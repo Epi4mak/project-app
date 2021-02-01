@@ -1,0 +1,39 @@
+.background {
+    height: 100%;
+    width: 60vw;
+    background-color: rgb(240, 226, 255);
+    position: absolute;
+    left: 20vw;
+    top: 16vh;
+}
+
+.model {
+    display: grid;
+    padding: 10px;
+    margin-left: 10px;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto;
+}
+
+#name {
+    font-size: 27px;
+    color: rgb(65, 40, 134);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#name:hover {
+    font-size: 29px;
+    color: rgb(65, 40, 134);
+    text-decoration: underline;
+}
+
+#desc {
+    font-size: 20px;
+    color: rgb(81, 63, 129);
+}
+
+#price {
+    font-size: 28px;
+    color: rgb(81, 63, 129);
+}

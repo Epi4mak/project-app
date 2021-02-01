@@ -1,0 +1,27 @@
+<!-- <svg style="display: none;">
+    <symbol id="check-mark" >
+        
+    </symbol>
+</svg> -->
+<div class="body">
+    <div class="background">
+        <div *ngFor="let model of models">
+            <div class="model">
+                <div class="photo__inner">
+                    <div class="photo">
+                        <img [src]="model.link">
+                    </div>
+                </div>
+                <div class="product">
+                    <a routerLink="/basket" id="name" routerLinkActive="active">{{model.name}}</a>
+                    <div id="price">
+                        <strong>{{model.price}} руб.</strong>
+                    </div>
+                    <img src="" (click)="addToBaskets(model)"
+                    title="добавить в корзину">
+                    <img src="" (click)="addToStars(model)" title="добавить в избранные">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
