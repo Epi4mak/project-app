@@ -8,7 +8,19 @@ export class ModelsService {
     {
       link: "https://www.tennis-pro.ru/upload/resize_cache/iblock/c74/336_336_1/c74fc45e2b10d55c2c102c4a9b9a102e.jpeg",
       name: "Ракетка теннисная HEAD Graphene 360+ Speed Pro",
-      desc: "Профессиональный уровень",
+      desc: "Вес без струн - 310 г, площадь головы 645см кв, подходит игрокам профессионального уровня",
+      price: "17.890"
+    },
+    {
+      link: "https://www.tennis-pro.ru/upload/resize_cache/iblock/c74/336_336_1/c74fc45e2b10d55c2c102c4a9b9a102e.jpeg",
+      name: "Ракетка теннисная HEAD Graphene 360+ Speed Pro",
+      desc: "Вес без струн - 310 г, площадь головы 645см кв, подходит игрокам профессионального уровня",
+      price: "17.890"
+    },
+    {
+      link: "https://www.tennis-pro.ru/upload/resize_cache/iblock/c74/336_336_1/c74fc45e2b10d55c2c102c4a9b9a102e.jpeg",
+      name: "Ракетка теннисная HEAD Graphene 360+ Speed Pro",
+      desc: "Вес без струн - 310 г, площадь головы 645см кв, подходит игрокам профессионального уровня",
       price: "17.890"
     }
   ]
