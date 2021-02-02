@@ -20,6 +20,9 @@ export class ProductsComponent implements OnInit {
       } else if (number === 2) {
         this.models = this.modelsService.menshoes;
       }
+
+      console.log(this.models);
+      
     })
 
   }
