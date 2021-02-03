@@ -181,7 +181,6 @@ hr {
 }
 
 .about__inner {
-    /* position: absolute; */
     padding-left: 10%;
 }
 
@@ -298,6 +297,8 @@ hr {
 ====================== */
 .burger {
     display: none;
+    border: none;
+    outline: none;
 }
 
 .burger__item {
@@ -317,7 +318,7 @@ hr {
 .burger__item:after {
     content: "";
     width: 100%;
-    height: 100%;
+    height: 3px;
 
     background-color: #fff;
 
@@ -395,6 +396,17 @@ hr {
     }
     .nav {
         display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: right;
+
+        background-color:  #313454;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+    .nav__link {
+        padding: 10px 15px;
     }
 }
 
@@ -466,5 +478,15 @@ hr {
     }
     .about {
         height: 700px;
+    }
+    .footer__inner {
+        padding: 35px 0px;
+    }
+    .footer__block {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .about__inner {
+        padding-left: 0%;
     }
 }

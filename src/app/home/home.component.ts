@@ -12,8 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // scroll(element) {
-  //   window.scrollTo(element.yPosition)
+  // showFunction(): void {
+  //   .nav
   // }
 
 }
